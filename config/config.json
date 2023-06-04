@@ -2,13 +2,13 @@
     "App":{
         "window":{
             "title": "RNA Life Simulator",
-            "width": 800,
-            "height": 600,
+            "width": 1200,
+            "height": 720,
             "menu": false
         },
 
         "developer": {
-            "activated": true
+            "activated": false
         }
     }
 }

@@ -26,8 +26,8 @@ const createSplashWindow = () => {
 
 const createGUIWindow = () => {
     const studioGUIWindow = new BrowserWindow({
-        width: 1200,
-        height: 720,
+        width: App.window.width,
+        height: App.window.height,
         webPreferences: {
             enableRemoteModule: true,
             nodeIntegration: true,
@@ -59,7 +59,6 @@ app.on('window-all-closed', () => {
 
 const LoadAssets = () => {
     const AssetLoader = new Promise(resolve => {
-        //placeholder for loader
         (!App.developer.activated) ? setTimeout(resolve, 5000) : setTimeout(resolve, 0);
     }).then((_metadata) => {
         createGUIWindow();

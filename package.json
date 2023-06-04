@@ -1,6 +1,6 @@
 {
   "name": "rnalife",
-  "version": "1.0.0",
+  "version": "0.0.1a",
   "description": "A life and evolution simulator tool",
   "main": "main.js",
   "scripts": {
