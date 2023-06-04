@@ -1,0 +1,21 @@
+{
+  "name": "rnalife",
+  "version": "1.0.0",
+  "description": "A life and evolution simulator tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/FrancisStudios/RNA-Life",
+  "keywords": [
+    "simulation",
+    "evolution",
+    "ai",
+    "life"
+  ],
+  "author": "Francis Stuidos, Zsombor",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
