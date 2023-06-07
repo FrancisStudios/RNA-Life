@@ -1,0 +1,11 @@
+*********************************************
+Particle Engine is created by FrancisStudios
+*********************************************
+
+You can use and distribute this engine freely
+and all modifications are allowed, please 
+include the following segment in a license file
+or a credits file. 
+
+[ Particle Engine by FrancisStudios ]
+| https://github.com/francisstudios |
