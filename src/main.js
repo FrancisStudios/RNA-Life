@@ -7,7 +7,9 @@ let renderer = new ParticleEngine.renderer('#renderer');
 
 renderer.ready.then(()=>{
     renderer.init();
-    //renderer.overwriteScene([{},{},{}]);
+    renderer.setColor('blue');
     renderer.gameLoop();
+    //renderer.overwriteScene([{},{},{}]);
+    //renderer.gameLoop();
 });
 

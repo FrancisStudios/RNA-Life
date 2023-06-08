@@ -45,8 +45,9 @@ class RENDERER {
      * COLOR | method
      * sets the draw tool color
      * native cty.fillStyle
+     * @param {string} color
      */
-    set color(color){ this.color = color; }
+    setColor(color){ this.color = color; }
 
     get scene(){ return this.scene; }
     overwriteScene(_newScene) { this.scene = _newScene; }
@@ -59,14 +60,14 @@ class RENDERER {
      */
     gameLoop(){
         if (!this.isGLEnabled) this.isGLEnabled = true;
+        this.context.fillStyle = this.color;
         this.context.fillRect(0, 0, window.innerWidth, window.innerHeight);
-        for(let sceneObjects = 0; sceneObjects = this.scene.length; sceneObjects++){
+        for(let sceneObjects = 0; sceneObjects <= this.scene.length; sceneObjects++){
 
         }
        setInterval(() => {
         if(this.isGLEnabled) this.gameLoop();
        }, 0);
-       console.log('a');
     }
 
 }
